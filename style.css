@@ -1,0 +1,63 @@
+div.card
+{
+    background-color:yellowgreen;
+    margin: 20px;
+    padding: 10px;
+}
+
+.navbar-custom
+{
+    padding:10px;
+}
+
+#header
+{
+    background-color: red;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#section
+{
+    background-color: royalblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#section2
+{
+    background-color: indianred;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#footer
+{   background-color: rgb(207, 190, 167);
+    opacity: 70%;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: green;
+    border-style: solid hidden hidden hidden;
+
+}
+
+#copyright
+{
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+    opacity: 60%;
+}
+
+h3
+{
+    padding: 1px;
+    font-weight: bold;
+}
+
+
