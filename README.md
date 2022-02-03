@@ -1,3 +1,3 @@
 # vma-project
-Syksyllä 2021
-HTML-projekti part 2
+Keväällä 2022
+Yrityksen verkkosivujen päivityksen prototyyppi-sivu
