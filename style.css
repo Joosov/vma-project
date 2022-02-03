@@ -2,7 +2,32 @@ div.card
 {
     background-color:yellowgreen;
     margin: 20px;
-    padding: 10px;
+    padding: 5px;
+}
+
+body {
+    background-color: antiquewhite
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https: //via.placeholder.com/100x100");
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    padding-top: 300px;
+    padding-bottom: 10px;
+  
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 8px;
+    padding-top: 100px;
+    padding-left: 20px;
+
+
 }
 
 .navbar-custom
@@ -36,10 +61,9 @@ div.card
 
 #footer
 {   background-color: rgb(207, 190, 167);
-    opacity: 70%;
     text-align:center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-color: green;
     border-style: solid hidden hidden hidden;
 
@@ -51,13 +75,21 @@ div.card
     text-align: center;
     padding: 10px;
     font-size: small;
-    opacity: 60%;
+    opacity: 50%;
 }
 
 h3
 {
-    padding: 1px;
+    
     font-weight: bold;
 }
 
+.center {
+    text-align: center;
+}
 
+textarea {
+    resize: none;
+}
+
+<img src="https://via.placeholder.com/150" alt="placeholder" style="width:100%;">
