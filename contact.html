@@ -17,8 +17,8 @@
       
 <!-- navigation -->
 
-        <nav class="navbar navbar-custom fixed-top navbar-expand-lg navbar-light" style="background-color:teal">
-              <a class="navbar-brand" href="index.html"><img src="assets/other/vuorimaalaus_logo.png" alt="Vuorimaalaus Oy logo" width="200" class="d-inline-block align-text-top"></a>
+<nav class="navbar navbar-custom fixed-top navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="index.html"><img src="assets/other/vuorimaalaus_logo.png" alt="Vuorimaalaus Oy logo" width="200" class="d-inline-block align-text-top"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -54,7 +54,8 @@
 <div class = "row hero-image">
   <div class="col-sm-1"></div>
       <div class= "col-sm-10 col-lg-12 hero-text" >
-          <h1>Yhteystiedot</h1>
+          <h1 class="hero_h1">Yhteystiedot</h1>
+          <h2 class="hero_h2">Ota yhteyttä ja pyydä maksuton tarjous</h2>
       </div>
   <div class="col-sm-1"> </div>
 </div>
@@ -93,9 +94,8 @@
       <p>Jätä yhteystietosi niin olemme sinuun yhteydessä. Voit myös pyytää tarjousta sisä- tai ulkomaalauksista. Otamme sinuun yhteyttä mahdollisimman pian.</p>
 
 
-
       <div class="container px-5 my-5">
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <form id="contactForm label2"  data-sb-form-api-token="API_TOKEN">
             <div class="form-floating mb-3">
                 <input class="form-control" id="nimi" type="text" placeholder="Nimi *" data-sb-validations="required" />
                 <label for="nimi">Nimi *</label>
@@ -113,18 +113,18 @@
                 <div class="invalid-feedback" data-sb-feedback="puhelinnumero:required">Puhelinnumero vaaditaan.</div>
             </div>
             <div class="mb-3">
-                <label class="form-label d-block">Minua kiinnostaa:</label>
+                <label class="form-label d-block label2">Minua kiinnostaa:</label>
                 <div class="form-check">
                     <input class="form-check-input" id="sisamaalaustyot" type="checkbox" name="minuaKiinnostaa" data-sb-validations="required" />
-                    <label class="form-check-label" for="sisamaalaustyot">Sisämaalaustyöt</label>
+                    <label class="form-check-label label2" for="sisamaalaustyot">Sisämaalaustyöt</label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" id="ulkomaalaustyot" type="checkbox" name="minuaKiinnostaa" data-sb-validations="required" />
-                    <label class="form-check-label" for="ulkomaalaustyot">Ulkomaalaustyöt</label>
+                    <label class="form-check-label label2" for="ulkomaalaustyot">Ulkomaalaustyöt</label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" id="muuAsia" type="checkbox" name="minuaKiinnostaa" data-sb-validations="required" />
-                    <label class="form-check-label" for="muuAsia">Jokin muu, mikä?</label>
+                    <label class="form-check-label label2" for="muuAsia">Jokin muu, mikä?</label>
                 </div>
                 <div class="invalid-feedback" data-sb-feedback="minuaKiinnostaa:required">Valitse aihe.</div>
             </div>
@@ -186,16 +186,16 @@
          <br> Y-tunnus: XXXXXX</p> 
       </div>   
   
-  <div class = "col-sm-0 col-lg-2">
-      <div>
-      <p><img src="assets/other/AAA-logo-2021-FI-transparent.png" alt="AAA-luokitus" style="width:150px;"></p>
-      </div>
-  </div>    
-  <div class = "col-sm-0 col-lg-2">
-      <a href= "https://zeckit.com/selvitys/FI/0947845-7?lang=fi"><img src="assets/other/LK_valkoinen_rgb.jpg" alt="Luotettava kumppani -logo"  style="width:150px;"></a> 
-      <p><br> <img src="assets/other/logo-pintaurakoitoitsijat-ry-jasenyritys.png" alt="Pintaurakoitsijat -jäsenyhdistyslogo"  style="width:150px;"></p>
+      <div class = "col-sm-0 col-lg-2">
+        <div>
+        <p><img src="assets/other/AAA-logo-2021-FI-transparent.png" alt="AAA-luokitus" style="width:200px;"></p>
+        </div>
+    </div>    
+    <div class = "col-sm-0 col-lg-2">
+        <a href= "https://zeckit.com/selvitys/FI/0947845-7?lang=fi"><img src="assets/other/LK_valkoinen_rgb.jpg" alt="Luotettava kumppani -logo"  style="width:200px;"></a> 
+        <p><br> <img src="assets/other/Logo_Pintaurakoitsijat_ry_Jasenyhdistys.jpg" alt="Pintaurakoitsijat -jäsenyhdistyslogo"  style="width:200px;"></p>
+    </div>
   </div>
-</div>
 
 <!-- Copyright -->
 <div class ="row">
