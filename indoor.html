@@ -50,10 +50,10 @@
 
 <!-- hero -->
 
-<div class = "row hero-image">
+<div class = "row hero-image indoor">
   <div class="col-sm-1"></div>
       <div class= "col-sm-10 col-lg-12 hero-text" >
-          <h1 class="hero_h1">Sisämaalaukset</h1>
+          <h1 class="hero_h1">SISÄMAALAUKSET</h1>
           <h2 class="hero_h2">Luotettavasti ja laadusta tinkimättä</h2>
       </div>
   <div class="col-sm-1"> </div>
@@ -111,7 +111,7 @@
                 </p>
 
       <div class= "center" >
-                  <a href="contact.html"><button type="button" class= "btn btn-success">Ota yhteyttä ja pyydä maksuton tarjous sisämaalauksista!</button> </a>
+                  <a href="contact.html"><button type="button" class= "btn btn-lg btn-success">Ota yhteyttä ja pyydä maksuton tarjous sisämaalauksista!</button> </a>
                    </div>
         <div class="col-sm-1 col-lg-2"></div>
             </div>
@@ -121,45 +121,47 @@
 
         </div>
         <div class="row" id = "section2">
-          <h2 style= "text-align: center;">Sisämaalausten referenssikohteita:</h2>
+          <h3 style= "text-align: center;">Sisämaalausten referenssikohteita:</h3>
           <div class="col-md-1"></div>
           <div class="col-md-5">
-
-            <p><b>Vuollemutka 9, Vantaa</b><br>
-            Kolmen rappukäytävän huoltomaalaustyöt sekä akustolevyjen uusinta</p>
-            <img id="myImg" src="assets/images/indoor_references/picture1.jpg" class="myImages responsive img-fluid img-thumbnail rounded mx-auto d-block" alt="placeholder"></a> <br>
 
             <p><b>Pähkinätie 6, Vantaa</b><br />
               kuuden rapun kaikkien akustiikkalevyjen uusinta sekä sisääntuloaulojen huoltomaalaustyöt</p>
           <img id="myImg" src="assets/images/indoor_references/picture1.jpg" class="myImages responsive img-fluid img-thumbnail rounded mx-auto d-block" alt="placeholder"></a> <br>
          
 
+            <p><b>Vuollemutka 9, Vantaa</b><br>
+            Kolmen rappukäytävän huoltomaalaustyöt sekä akustolevyjen uusinta</p>
+
           <p><b>Heka-Myllypuro Oy, Helsinki</b><br /> 
             vuosisopimus vuokra-asuntojen maalaus-, tapetointi ja mattotöihin, 80 asuntoa</p></p>
+              
+            <p><b>Cygnauksenkatu 8, Helsinki</b><br />
+              rappukäytävien ikkunoiden sekä ovien kunnostus- ja maalaustyöt sisä- että ulkopuolelta, viisi rappua</p>
            
           </div>
+
           <div class="col-md-5"> 
+            <p><b>Kastanjakuja 2, Vantaa</b><br />
+              akustiikkalevyjen uusinta sekä sisääntuloaulan huoltomaalaustyöt</p>
+              <img id="myImg" src="assets/images/indoor_references/picture2.jpg" class="myImages responsive img-fluid img-thumbnail rounded mx-auto d-block" alt="placeholder"></a> <br>
+
             <p><b>Porarinkatu 10, Espoo</b><br>
               Rappukäytävien seinien ja kattojen maalaukset</p>
-              <img id="myImg" src="assets/images/indoor_references/picture1.jpg" class="myImages responsive img-fluid img-thumbnail rounded mx-auto d-block" alt="placeholder"></a> <br>
   
           
             <p><b>Mantelikuja 6, Vantaa</b><br />
               kahden rappukäytävän maalaustyöt sekä sisääntuloaulojen efektimaalaukset</p>
-             <a ><img src="https://via.placeholder.com/600x400" class="myImages responsive img-thumbnail img-fluid rounded mx-auto d-block" alt="placeholder"></a> <br>
               
-                <p><b>Kastanjakuja 2, Vantaa</b><br />
-                  akustiikkalevyjen uusinta sekä sisääntuloaulan huoltomaalaustyöt</p>
-
+            
                 <p><b>Lammasrinne 4, Vantaa</b><br />
                   kahden rappukäytävän maalaustyöt sekä sisääntuloaulojen efektimaalaukset</p>
-                  <p><b>Cygnauksenkatu 8, Helsinki</b><br />
-                    rappukäytävien ikkunoiden sekä ovien kunnostus- ja maalaustyöt sisä- että ulkopuolelta, viisi rappua</p>
+                
           </div>
 
           <div class="col-md-1"></div>
 
-                         <!-- The Modal -->
+ <!-- The Modal -->
 <div id="myModal" class="modal">
   <span class="close">&times;</span>
   <img class="modal-content" id="work">
@@ -208,37 +210,13 @@
 
 <!-- Copyright -->
 <div class ="row">
-<div id = "copyright">
-  <a href="https://www.linkedin.com/in/juuso-vuori/">© 2022 Juuso Vuori</a>
-</div>
-</div>
-
-</div>
-<script>
-  // Get the modal
-// create references to the modal...
-var modal = document.getElementById('myModal');
-// to all images -- note I'm using a class!
-var images = document.getElementsByClassName('myImages');
-// the image in the modal
-var modalImg = document.getElementById("work");
-
-for (var i = 0; i < images.length; i++) {
-  var img = images[i];
-
-  // and attach our click listener for this image.
-  img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-  }
-}
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
+  <div id = "copyright">
+    <p>© 2022 Vuorimaalaus Oy</p>
+  </div>
+  </div>
+  </div>
   
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() { 
-    modal.style.display = "none";
-  }
-  </script>
-</body>
-</html>
+  <script src="javascript.js" defer></script>
+  
+  </body>
+  </html>
