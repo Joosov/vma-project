@@ -1,21 +1,32 @@
 a:link {
     text-decoration: none;
-    color: rgb(253, 244, 232);
-
+    color: rgb(216, 206, 199);
 }
 
 a:hover {
-   color: rgb(33, 174, 179);
+    color: rgb(134, 47, 27);
+
 }
 
-a:active {
-    color: rgb(118, 190, 202);
+
+.btn-section {
+    background-color: rgb(134, 47, 27);
+    border-color: rgb(134, 47, 27);
+
+}
+
+.btn-card {
+    background-color: rgb(19, 38, 59);
+    border-style: none;
+
+
+
 }
 
 body {
-    background-color: rgb(38, 74, 120);
-    color: whitesmoke;
-    font-family: Georgia, Times, serif;
+    background-color: rgb(82, 112, 129);
+    color: rgb(19, 38, 59);
+    font-family: 'Tahoma', 'Segoe UI', 'Geneva', 'Verdana', sans-serif;
     font-size:1.1rem;
     line-height: 1.8;
     letter-spacing: 1px;
@@ -26,34 +37,33 @@ body {
     margin:auto;
     justify-content: center;
     text-align: center;
-    padding-top: 0px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 
 #copyright
 {
     text-align: center;
-    font-size: small;
+    font-size:medium;
     padding-top: 20px;
     padding-bottom: 10px;
+    font-family: 'didot', 'Georgia', 'Times New Roman', 'Times', serif;
+    letter-spacing: 1px;
 
 }
 
-div.card
-{
-    background-color:rgb(128, 47, 31);
+div.card {
+    background-color: rgb(134, 47, 27);
+    color:rgb(216, 206, 199);
     margin: 10px;
     padding: 2px;
     font-size: large;
 }
 
-li.customlist { 
-    color: rgb(253, 244, 232);
-background-color: rgb(33, 174, 179);
+div.card:hover {
+background-color:rgb(120, 42, 24);
 }
-
-
 
 .hero-image {
     background-position:initial;
@@ -91,13 +101,15 @@ background-color: rgb(33, 174, 179);
 }
 
 #footer
-{     background-color:rgb(128, 47, 31);
+{     background-color: rgb(19, 38, 59);
     text-align:center;
     padding-top: 30px;
     padding-bottom: 30px;
     border-color: rgb(38, 74, 120);
     border-style: solid hidden hidden hidden;
     line-height: 2.5;
+    color: rgb(216, 206, 199);
+    
 }
 
 .hero-text {
@@ -114,71 +126,118 @@ background-color: rgb(33, 174, 179);
 h1 {
     font-weight:bold;
     letter-spacing: 2px;
-    font-family: "didot";
-    font-size: 2.4rem;
-
+    font-family: 'didot', 'Georgia', 'Times New Roman', 'Times', serif;
+    font-size: 2em;
 }
-
 
 h2 {
     font-weight: bold;
     letter-spacing: 2px;
-    font-family: "didot";
+    font-family: 'didot', 'Georgia', 'Times New Roman', 'Times', serif;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 2rem;
-
-
+    font-size: 1.8em;
 }
 
 h3
 {
-   
-    color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'didot', 'Georgia', 'Times New Roman', 'Times', serif;
     letter-spacing: 2px;
 
 }
 
 
 .dropdown-menu {
-    background-color: rgb(29, 56, 87);
+    background-color: rgb(19, 38, 59);
     font-size: large;
-    color:white;
+    color: rgb(216, 206, 199);
 
 }
 
 .dropdown-item {
-    background-color: rgb(29, 56, 87);
-color:white;
+    background-color: rgb(19, 38, 59);
+    color: rgb(216, 206, 199);
     font-size: large;
-   
 }
+
 
 .navbar-custom
 {
     padding:10px 15px 10px 10px;
-    background-color: rgb(29, 56, 87);   
+    background-color:rgb(19, 38, 59);  
     font-size: larger;
     z-index: 900;
+    font-family: 'didot', 'Georgia', 'Times New Roman', 'Times', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+.navbar-custom a {
+    color: rgb(216, 206, 199) !important;
+}
+
+.navbar-custom a:hover {
+    color:rgb(134, 47, 27) !important;
+}
+
+#brand-name {
+    user-select: none;
+    font-size: 30px;
+    font-family: 'didot', 'Georgia', 'Times New Roman', 'Times', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(216, 206, 199);
+}
+
+a.active {
+    color:rgb(134, 47, 27) !important;
+}
+
+.navbar-toggler-custom {
+   
+    background-color: rgb(216, 206, 199) !important;
+    border-width: 2px;
+
+}
+
+a.navbar-brand{
+    user-select: none;
+    font-size: larger !important;
+    color: white !important;
+    font-weight:bold;
+    letter-spacing: 2px;
+    font-family: 'didot', 'Georgia', 'Times New Roman', 'Times', serif;
+    font-size: 30px !important;
 }
 
 #section
 {
-    background-color: rgb(41, 83, 131); 
-    padding-top: 30px;
-    padding-bottom: 30px;
-    line-height: 1.6;
-    
+    background-color: rgb(216, 206, 199);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.6; 
 }
 
 #section2
 {
-    background-color: rgb(48, 92, 143);      padding-top: 30px;
-    padding-bottom: 30px;
+    background-color: rgb(197, 186, 177);
+    color:rgb(19, 38, 59);
+    padding-top: 20px;
+    padding-bottom: 20px;
     line-height: 1.6;
+}
+
+.contact-info a {
+    color: rgb(19, 38, 59);
+}
+
+.contact-info a:hover {
+   color:rgb(134, 47, 27);
+
 }
 
 textarea {
@@ -187,21 +246,8 @@ textarea {
 
 #bold {
     font-weight: bold;
-
 }
 
-label {
-    color: black;
-}
-
-label.label2 {
-    color: rgb(253, 244, 232);
-
-}
-
-.form-control {
-    background-color:rgb(253, 244, 232);
-}
 
 #myImg:hover {opacity: 0.8;
 cursor: pointer;
@@ -223,8 +269,8 @@ background-color:white}
   .modal-content {
     margin: auto;
     display: block;
-    width: 90%;
-    max-width: 900px;
+    width: 80%;
+    max-width: 800px;
 
   }
 
@@ -263,13 +309,7 @@ background-color:white}
         cursor: pointer;
       }
       
-      /* 100% Image Width on Smaller Screens */
-      @media only screen and (max-width: 700px){
-        .modal-content {
-          width: 100%;
-        }
-    }
-s
+
 .img-thumbnail {
-    max-width: 80%;
+    max-width: 90%;
 }
