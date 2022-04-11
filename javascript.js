@@ -10,9 +10,10 @@ for (var i = 0; i < images.length; i++) {
   var img = images[i];
 
   // and attach our click listener for this image.
-  img.onclick = function(){
+  img.onclick = function(e){
+    e.preventDefault()
     modal.style.display = "block";
-    modalImg.src = this.src;
+    modalImg.src = this.href;
   }
 }
   // Get the <span> element that closes the modal
